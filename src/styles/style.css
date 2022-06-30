@@ -1,0 +1,47 @@
+@import url('https://use.typekit.net/dgb5qzy.css');
+
+@font-face {
+  src: url('/assets/fonts/clanOT/ClanOT-NarrowMedium.woff');
+  font-family: 'ClanOT-NarrowMedium', sans-serif;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  src: url('/assets/fonts/clanOT/ClanOT-NarrowMedium.woff');
+  font-family: 'ClanOT-NarrowThin', sans-serif;
+  font-style: normal;
+  font-display: swap;
+}
+
+html {
+  overflow: scroll;
+}
+
+* {
+  list-style: none;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  box-sizing: border-box;
+  color: var(--color-anwb-black);
+  font-family: jaf-bernina-sans-narrow, sans-serif;
+}
+
+h1 {
+  color: var(--color-anwb-blue);
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-size-bd);
+  font-family: 'ClanOT-NarrowThin', sans-serif;
+}
+
+.seperator {
+  width: 90%;
+  margin: 0 auto;
+  height: 1px;
+  background: var(--color-grey);
+  display: block;
+}
